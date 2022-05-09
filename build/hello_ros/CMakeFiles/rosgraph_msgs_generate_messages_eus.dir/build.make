@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/w0w/ros_learning/src
+CMAKE_SOURCE_DIR = /home/w0w/code/ros_learning/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/w0w/ros_learning/build
+CMAKE_BINARY_DIR = /home/w0w/code/ros_learning/build
 
 # Utility rule file for rosgraph_msgs_generate_messages_eus.
 
@@ -63,10 +63,10 @@ hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build: rosgraph_msg
 .PHONY : hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
 
 hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean:
-	cd /home/w0w/ros_learning/build/hello_ros && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/w0w/code/ros_learning/build/hello_ros && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
 
 hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend:
-	cd /home/w0w/ros_learning/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/w0w/ros_learning/src /home/w0w/ros_learning/src/hello_ros /home/w0w/ros_learning/build /home/w0w/ros_learning/build/hello_ros /home/w0w/ros_learning/build/hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/w0w/code/ros_learning/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/w0w/code/ros_learning/src /home/w0w/code/ros_learning/src/hello_ros /home/w0w/code/ros_learning/build /home/w0w/code/ros_learning/build/hello_ros /home/w0w/code/ros_learning/build/hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend
 

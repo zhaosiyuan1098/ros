@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/helloROS.dir/src/helloROS.cpp.o"
-  "/home/w0w/ros_learning/devel/lib/hello_ros/helloROS.pdb"
-  "/home/w0w/ros_learning/devel/lib/hello_ros/helloROS"
+  "/home/w0w/code/ros_learning/devel/lib/hello_ros/helloROS.pdb"
+  "/home/w0w/code/ros_learning/devel/lib/hello_ros/helloROS"
 )
 
 # Per-language clean rules from dependency scanning.

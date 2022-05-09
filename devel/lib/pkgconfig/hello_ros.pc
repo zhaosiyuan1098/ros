@@ -1,4 +1,4 @@
-prefix=/home/w0w/ros_learning/devel
+prefix=/home/w0w/code/ros_learning/devel
 
 Name: hello_ros
 Description: Description of hello_ros

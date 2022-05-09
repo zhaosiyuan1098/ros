@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/w0w/ros_learning/src/hello_ros/src/helloROS.cpp
+/home/w0w/code/ros_learning/src/hello_ros/src/helloROS.cpp
 iostream
 -
 string
@@ -14,9 +14,9 @@ string
 sstream
 -
 ros/ros.h
-/home/w0w/ros_learning/src/hello_ros/src/ros/ros.h
+/home/w0w/code/ros_learning/src/hello_ros/src/ros/ros.h
 std_msgs/String.h
-/home/w0w/ros_learning/src/hello_ros/src/std_msgs/String.h
+/home/w0w/code/ros_learning/src/hello_ros/src/std_msgs/String.h
 
 /opt/ros/melodic/include/ros/advertise_options.h
 ros/forwards.h

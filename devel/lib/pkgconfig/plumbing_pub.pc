@@ -1,0 +1,8 @@
+prefix=/home/w0w/ros_learning/devel
+
+Name: plumbing_pub
+Description: Description of plumbing_pub
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

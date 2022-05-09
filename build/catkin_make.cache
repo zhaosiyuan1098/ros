@@ -1,2 +1,2 @@
-hello_ros
--DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/w0w/ros_learning/devel -DCMAKE_INSTALL_PREFIX=/home/w0w/ros_learning/install -G Unix Makefiles
+hello_ros:learning_service:learning_topic
+-DCMAKE_EXPORT_COMPILE_COMMANDS=1 -DCATKIN_DEVEL_PREFIX=/home/w0w/code/ros_learning/devel -DCMAKE_INSTALL_PREFIX=/home/w0w/code/ros_learning/install -G Unix Makefiles

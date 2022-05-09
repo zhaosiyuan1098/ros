@@ -1,8 +1,8 @@
-# Install script for directory: /home/w0w/ros_learning/src/hello_ros
+# Install script for directory: /home/w0w/code/ros_learning/src/hello_ros
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/w0w/ros_learning/install")
+  set(CMAKE_INSTALL_PREFIX "/home/w0w/code/ros_learning/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "RelWithDebInfo")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -38,32 +38,32 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/w0w/ros_learning/build/hello_ros/catkin_generated/installspace/hello_ros.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/w0w/code/ros_learning/build/hello_ros/catkin_generated/installspace/hello_ros.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hello_ros/cmake" TYPE FILE FILES
-    "/home/w0w/ros_learning/build/hello_ros/catkin_generated/installspace/hello_rosConfig.cmake"
-    "/home/w0w/ros_learning/build/hello_ros/catkin_generated/installspace/hello_rosConfig-version.cmake"
+    "/home/w0w/code/ros_learning/build/hello_ros/catkin_generated/installspace/hello_rosConfig.cmake"
+    "/home/w0w/code/ros_learning/build/hello_ros/catkin_generated/installspace/hello_rosConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hello_ros" TYPE FILE FILES "/home/w0w/ros_learning/src/hello_ros/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hello_ros" TYPE FILE FILES "/home/w0w/code/ros_learning/src/hello_ros/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/w0w/ros_learning/build/hello_ros/catkin_generated/installspace/hello_ros.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/w0w/code/ros_learning/build/hello_ros/catkin_generated/installspace/hello_ros.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hello_ros/cmake" TYPE FILE FILES
-    "/home/w0w/ros_learning/build/hello_ros/catkin_generated/installspace/hello_rosConfig.cmake"
-    "/home/w0w/ros_learning/build/hello_ros/catkin_generated/installspace/hello_rosConfig-version.cmake"
+    "/home/w0w/code/ros_learning/build/hello_ros/catkin_generated/installspace/hello_rosConfig.cmake"
+    "/home/w0w/code/ros_learning/build/hello_ros/catkin_generated/installspace/hello_rosConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hello_ros" TYPE FILE FILES "/home/w0w/ros_learning/src/hello_ros/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hello_ros" TYPE FILE FILES "/home/w0w/code/ros_learning/src/hello_ros/package.xml")
 endif()
 

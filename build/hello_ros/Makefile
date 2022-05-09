@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/w0w/ros_learning/src
+CMAKE_SOURCE_DIR = /home/w0w/code/ros_learning/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/w0w/ros_learning/build
+CMAKE_BINARY_DIR = /home/w0w/code/ros_learning/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/w0w/ros_learning/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/w0w/ros_learning/build/CMakeFiles /home/w0w/ros_learning/build/hello_ros/CMakeFiles/progress.marks
-	cd /home/w0w/ros_learning/build && $(MAKE) -f CMakeFiles/Makefile2 hello_ros/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/w0w/ros_learning/build/CMakeFiles 0
+	cd /home/w0w/code/ros_learning/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/w0w/code/ros_learning/build/CMakeFiles /home/w0w/code/ros_learning/build/hello_ros/CMakeFiles/progress.marks
+	cd /home/w0w/code/ros_learning/build && $(MAKE) -f CMakeFiles/Makefile2 hello_ros/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/w0w/code/ros_learning/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/w0w/ros_learning/build && $(MAKE) -f CMakeFiles/Makefile2 hello_ros/clean
+	cd /home/w0w/code/ros_learning/build && $(MAKE) -f CMakeFiles/Makefile2 hello_ros/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/w0w/ros_learning/build && $(MAKE) -f CMakeFiles/Makefile2 hello_ros/preinstall
+	cd /home/w0w/code/ros_learning/build && $(MAKE) -f CMakeFiles/Makefile2 hello_ros/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/w0w/ros_learning/build && $(MAKE) -f CMakeFiles/Makefile2 hello_ros/preinstall
+	cd /home/w0w/code/ros_learning/build && $(MAKE) -f CMakeFiles/Makefile2 hello_ros/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/w0w/ros_learning/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/w0w/code/ros_learning/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 hello_ros/CMakeFiles/roscpp_generate_messages_py.dir/rule:
-	cd /home/w0w/ros_learning/build && $(MAKE) -f CMakeFiles/Makefile2 hello_ros/CMakeFiles/roscpp_generate_messages_py.dir/rule
+	cd /home/w0w/code/ros_learning/build && $(MAKE) -f CMakeFiles/Makefile2 hello_ros/CMakeFiles/roscpp_generate_messages_py.dir/rule
 .PHONY : hello_ros/CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -179,12 +179,12 @@ roscpp_generate_messages_py: hello_ros/CMakeFiles/roscpp_generate_messages_py.di
 
 # fast build rule for target.
 roscpp_generate_messages_py/fast:
-	cd /home/w0w/ros_learning/build && $(MAKE) -f hello_ros/CMakeFiles/roscpp_generate_messages_py.dir/build.make hello_ros/CMakeFiles/roscpp_generate_messages_py.dir/build
+	cd /home/w0w/code/ros_learning/build && $(MAKE) -f hello_ros/CMakeFiles/roscpp_generate_messages_py.dir/build.make hello_ros/CMakeFiles/roscpp_generate_messages_py.dir/build
 .PHONY : roscpp_generate_messages_py/fast
 
 # Convenience name for target.
 hello_ros/CMakeFiles/roscpp_generate_messages_eus.dir/rule:
-	cd /home/w0w/ros_learning/build && $(MAKE) -f CMakeFiles/Makefile2 hello_ros/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+	cd /home/w0w/code/ros_learning/build && $(MAKE) -f CMakeFiles/Makefile2 hello_ros/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 .PHONY : hello_ros/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -194,12 +194,12 @@ roscpp_generate_messages_eus: hello_ros/CMakeFiles/roscpp_generate_messages_eus.
 
 # fast build rule for target.
 roscpp_generate_messages_eus/fast:
-	cd /home/w0w/ros_learning/build && $(MAKE) -f hello_ros/CMakeFiles/roscpp_generate_messages_eus.dir/build.make hello_ros/CMakeFiles/roscpp_generate_messages_eus.dir/build
+	cd /home/w0w/code/ros_learning/build && $(MAKE) -f hello_ros/CMakeFiles/roscpp_generate_messages_eus.dir/build.make hello_ros/CMakeFiles/roscpp_generate_messages_eus.dir/build
 .PHONY : roscpp_generate_messages_eus/fast
 
 # Convenience name for target.
 hello_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
-	cd /home/w0w/ros_learning/build && $(MAKE) -f CMakeFiles/Makefile2 hello_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+	cd /home/w0w/code/ros_learning/build && $(MAKE) -f CMakeFiles/Makefile2 hello_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 .PHONY : hello_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -209,12 +209,12 @@ roscpp_generate_messages_lisp: hello_ros/CMakeFiles/roscpp_generate_messages_lis
 
 # fast build rule for target.
 roscpp_generate_messages_lisp/fast:
-	cd /home/w0w/ros_learning/build && $(MAKE) -f hello_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make hello_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+	cd /home/w0w/code/ros_learning/build && $(MAKE) -f hello_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make hello_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 .PHONY : roscpp_generate_messages_lisp/fast
 
 # Convenience name for target.
 hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
-	cd /home/w0w/ros_learning/build && $(MAKE) -f CMakeFiles/Makefile2 hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+	cd /home/w0w/code/ros_learning/build && $(MAKE) -f CMakeFiles/Makefile2 hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 .PHONY : hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -224,12 +224,12 @@ rosgraph_msgs_generate_messages_cpp: hello_ros/CMakeFiles/rosgraph_msgs_generate
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_cpp/fast:
-	cd /home/w0w/ros_learning/build && $(MAKE) -f hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+	cd /home/w0w/code/ros_learning/build && $(MAKE) -f hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 hello_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
-	cd /home/w0w/ros_learning/build && $(MAKE) -f CMakeFiles/Makefile2 hello_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+	cd /home/w0w/code/ros_learning/build && $(MAKE) -f CMakeFiles/Makefile2 hello_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 .PHONY : hello_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -239,12 +239,12 @@ roscpp_generate_messages_cpp: hello_ros/CMakeFiles/roscpp_generate_messages_cpp.
 
 # fast build rule for target.
 roscpp_generate_messages_cpp/fast:
-	cd /home/w0w/ros_learning/build && $(MAKE) -f hello_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make hello_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+	cd /home/w0w/code/ros_learning/build && $(MAKE) -f hello_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make hello_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 .PHONY : roscpp_generate_messages_cpp/fast
 
 # Convenience name for target.
 hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule:
-	cd /home/w0w/ros_learning/build && $(MAKE) -f CMakeFiles/Makefile2 hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+	cd /home/w0w/code/ros_learning/build && $(MAKE) -f CMakeFiles/Makefile2 hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 .PHONY : hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -254,12 +254,12 @@ rosgraph_msgs_generate_messages_eus: hello_ros/CMakeFiles/rosgraph_msgs_generate
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_eus/fast:
-	cd /home/w0w/ros_learning/build && $(MAKE) -f hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+	cd /home/w0w/code/ros_learning/build && $(MAKE) -f hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
 .PHONY : rosgraph_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
-	cd /home/w0w/ros_learning/build && $(MAKE) -f CMakeFiles/Makefile2 hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+	cd /home/w0w/code/ros_learning/build && $(MAKE) -f CMakeFiles/Makefile2 hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 .PHONY : hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -269,12 +269,12 @@ rosgraph_msgs_generate_messages_lisp: hello_ros/CMakeFiles/rosgraph_msgs_generat
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_lisp/fast:
-	cd /home/w0w/ros_learning/build && $(MAKE) -f hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+	cd /home/w0w/code/ros_learning/build && $(MAKE) -f hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 hello_ros/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
-	cd /home/w0w/ros_learning/build && $(MAKE) -f CMakeFiles/Makefile2 hello_ros/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+	cd /home/w0w/code/ros_learning/build && $(MAKE) -f CMakeFiles/Makefile2 hello_ros/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 .PHONY : hello_ros/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -284,12 +284,12 @@ std_msgs_generate_messages_cpp: hello_ros/CMakeFiles/std_msgs_generate_messages_
 
 # fast build rule for target.
 std_msgs_generate_messages_cpp/fast:
-	cd /home/w0w/ros_learning/build && $(MAKE) -f hello_ros/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make hello_ros/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+	cd /home/w0w/code/ros_learning/build && $(MAKE) -f hello_ros/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make hello_ros/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 .PHONY : std_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/w0w/ros_learning/build && $(MAKE) -f CMakeFiles/Makefile2 hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+	cd /home/w0w/code/ros_learning/build && $(MAKE) -f CMakeFiles/Makefile2 hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 .PHONY : hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -299,12 +299,12 @@ rosgraph_msgs_generate_messages_nodejs: hello_ros/CMakeFiles/rosgraph_msgs_gener
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_nodejs/fast:
-	cd /home/w0w/ros_learning/build && $(MAKE) -f hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+	cd /home/w0w/code/ros_learning/build && $(MAKE) -f hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 .PHONY : rosgraph_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
-	cd /home/w0w/ros_learning/build && $(MAKE) -f CMakeFiles/Makefile2 hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+	cd /home/w0w/code/ros_learning/build && $(MAKE) -f CMakeFiles/Makefile2 hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 .PHONY : hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -314,12 +314,12 @@ rosgraph_msgs_generate_messages_py: hello_ros/CMakeFiles/rosgraph_msgs_generate_
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_py/fast:
-	cd /home/w0w/ros_learning/build && $(MAKE) -f hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+	cd /home/w0w/code/ros_learning/build && $(MAKE) -f hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make hello_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 hello_ros/CMakeFiles/std_msgs_generate_messages_eus.dir/rule:
-	cd /home/w0w/ros_learning/build && $(MAKE) -f CMakeFiles/Makefile2 hello_ros/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+	cd /home/w0w/code/ros_learning/build && $(MAKE) -f CMakeFiles/Makefile2 hello_ros/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 .PHONY : hello_ros/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -329,12 +329,12 @@ std_msgs_generate_messages_eus: hello_ros/CMakeFiles/std_msgs_generate_messages_
 
 # fast build rule for target.
 std_msgs_generate_messages_eus/fast:
-	cd /home/w0w/ros_learning/build && $(MAKE) -f hello_ros/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make hello_ros/CMakeFiles/std_msgs_generate_messages_eus.dir/build
+	cd /home/w0w/code/ros_learning/build && $(MAKE) -f hello_ros/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make hello_ros/CMakeFiles/std_msgs_generate_messages_eus.dir/build
 .PHONY : std_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 hello_ros/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/w0w/ros_learning/build && $(MAKE) -f CMakeFiles/Makefile2 hello_ros/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+	cd /home/w0w/code/ros_learning/build && $(MAKE) -f CMakeFiles/Makefile2 hello_ros/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 .PHONY : hello_ros/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -344,12 +344,12 @@ std_msgs_generate_messages_nodejs: hello_ros/CMakeFiles/std_msgs_generate_messag
 
 # fast build rule for target.
 std_msgs_generate_messages_nodejs/fast:
-	cd /home/w0w/ros_learning/build && $(MAKE) -f hello_ros/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make hello_ros/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+	cd /home/w0w/code/ros_learning/build && $(MAKE) -f hello_ros/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make hello_ros/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
 .PHONY : std_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 hello_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule:
-	cd /home/w0w/ros_learning/build && $(MAKE) -f CMakeFiles/Makefile2 hello_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+	cd /home/w0w/code/ros_learning/build && $(MAKE) -f CMakeFiles/Makefile2 hello_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 .PHONY : hello_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -359,12 +359,12 @@ roscpp_generate_messages_nodejs: hello_ros/CMakeFiles/roscpp_generate_messages_n
 
 # fast build rule for target.
 roscpp_generate_messages_nodejs/fast:
-	cd /home/w0w/ros_learning/build && $(MAKE) -f hello_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make hello_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+	cd /home/w0w/code/ros_learning/build && $(MAKE) -f hello_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make hello_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
 .PHONY : roscpp_generate_messages_nodejs/fast
 
 # Convenience name for target.
 hello_ros/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
-	cd /home/w0w/ros_learning/build && $(MAKE) -f CMakeFiles/Makefile2 hello_ros/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+	cd /home/w0w/code/ros_learning/build && $(MAKE) -f CMakeFiles/Makefile2 hello_ros/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 .PHONY : hello_ros/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -374,12 +374,12 @@ std_msgs_generate_messages_py: hello_ros/CMakeFiles/std_msgs_generate_messages_p
 
 # fast build rule for target.
 std_msgs_generate_messages_py/fast:
-	cd /home/w0w/ros_learning/build && $(MAKE) -f hello_ros/CMakeFiles/std_msgs_generate_messages_py.dir/build.make hello_ros/CMakeFiles/std_msgs_generate_messages_py.dir/build
+	cd /home/w0w/code/ros_learning/build && $(MAKE) -f hello_ros/CMakeFiles/std_msgs_generate_messages_py.dir/build.make hello_ros/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 hello_ros/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
-	cd /home/w0w/ros_learning/build && $(MAKE) -f CMakeFiles/Makefile2 hello_ros/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+	cd /home/w0w/code/ros_learning/build && $(MAKE) -f CMakeFiles/Makefile2 hello_ros/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 .PHONY : hello_ros/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -389,12 +389,12 @@ std_msgs_generate_messages_lisp: hello_ros/CMakeFiles/std_msgs_generate_messages
 
 # fast build rule for target.
 std_msgs_generate_messages_lisp/fast:
-	cd /home/w0w/ros_learning/build && $(MAKE) -f hello_ros/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make hello_ros/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	cd /home/w0w/code/ros_learning/build && $(MAKE) -f hello_ros/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make hello_ros/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 .PHONY : std_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 hello_ros/CMakeFiles/helloROS.dir/rule:
-	cd /home/w0w/ros_learning/build && $(MAKE) -f CMakeFiles/Makefile2 hello_ros/CMakeFiles/helloROS.dir/rule
+	cd /home/w0w/code/ros_learning/build && $(MAKE) -f CMakeFiles/Makefile2 hello_ros/CMakeFiles/helloROS.dir/rule
 .PHONY : hello_ros/CMakeFiles/helloROS.dir/rule
 
 # Convenience name for target.
@@ -404,7 +404,7 @@ helloROS: hello_ros/CMakeFiles/helloROS.dir/rule
 
 # fast build rule for target.
 helloROS/fast:
-	cd /home/w0w/ros_learning/build && $(MAKE) -f hello_ros/CMakeFiles/helloROS.dir/build.make hello_ros/CMakeFiles/helloROS.dir/build
+	cd /home/w0w/code/ros_learning/build && $(MAKE) -f hello_ros/CMakeFiles/helloROS.dir/build.make hello_ros/CMakeFiles/helloROS.dir/build
 .PHONY : helloROS/fast
 
 src/helloROS.o: src/helloROS.cpp.o
@@ -413,7 +413,7 @@ src/helloROS.o: src/helloROS.cpp.o
 
 # target to build an object file
 src/helloROS.cpp.o:
-	cd /home/w0w/ros_learning/build && $(MAKE) -f hello_ros/CMakeFiles/helloROS.dir/build.make hello_ros/CMakeFiles/helloROS.dir/src/helloROS.cpp.o
+	cd /home/w0w/code/ros_learning/build && $(MAKE) -f hello_ros/CMakeFiles/helloROS.dir/build.make hello_ros/CMakeFiles/helloROS.dir/src/helloROS.cpp.o
 .PHONY : src/helloROS.cpp.o
 
 src/helloROS.i: src/helloROS.cpp.i
@@ -422,7 +422,7 @@ src/helloROS.i: src/helloROS.cpp.i
 
 # target to preprocess a source file
 src/helloROS.cpp.i:
-	cd /home/w0w/ros_learning/build && $(MAKE) -f hello_ros/CMakeFiles/helloROS.dir/build.make hello_ros/CMakeFiles/helloROS.dir/src/helloROS.cpp.i
+	cd /home/w0w/code/ros_learning/build && $(MAKE) -f hello_ros/CMakeFiles/helloROS.dir/build.make hello_ros/CMakeFiles/helloROS.dir/src/helloROS.cpp.i
 .PHONY : src/helloROS.cpp.i
 
 src/helloROS.s: src/helloROS.cpp.s
@@ -431,7 +431,7 @@ src/helloROS.s: src/helloROS.cpp.s
 
 # target to generate assembly for a file
 src/helloROS.cpp.s:
-	cd /home/w0w/ros_learning/build && $(MAKE) -f hello_ros/CMakeFiles/helloROS.dir/build.make hello_ros/CMakeFiles/helloROS.dir/src/helloROS.cpp.s
+	cd /home/w0w/code/ros_learning/build && $(MAKE) -f hello_ros/CMakeFiles/helloROS.dir/build.make hello_ros/CMakeFiles/helloROS.dir/src/helloROS.cpp.s
 .PHONY : src/helloROS.cpp.s
 
 # Help Target
@@ -477,6 +477,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/w0w/ros_learning/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/w0w/code/ros_learning/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
