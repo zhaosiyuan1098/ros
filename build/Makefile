@@ -714,17 +714,17 @@ turtle_spawn/fast:
 .PHONY : turtle_spawn/fast
 
 #=============================================================================
-# Target rules for targets named velocity_publisher
+# Target rules for targets named plumbing_pub
 
 # Build rule for target.
-velocity_publisher: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 velocity_publisher
-.PHONY : velocity_publisher
+plumbing_pub: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 plumbing_pub
+.PHONY : plumbing_pub
 
 # fast build rule for target.
-velocity_publisher/fast:
-	$(MAKE) -f learning_topic/CMakeFiles/velocity_publisher.dir/build.make learning_topic/CMakeFiles/velocity_publisher.dir/build
-.PHONY : velocity_publisher/fast
+plumbing_pub/fast:
+	$(MAKE) -f learning_topic/CMakeFiles/plumbing_pub.dir/build.make learning_topic/CMakeFiles/plumbing_pub.dir/build
+.PHONY : plumbing_pub/fast
 
 #=============================================================================
 # Target rules for targets named pose_subscriber
@@ -794,7 +794,7 @@ help:
 	@echo "... std_srvs_generate_messages_nodejs"
 	@echo "... std_srvs_generate_messages_py"
 	@echo "... turtle_spawn"
-	@echo "... velocity_publisher"
+	@echo "... plumbing_pub"
 	@echo "... pose_subscriber"
 .PHONY : help
 

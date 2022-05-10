@@ -51,8 +51,8 @@
 },
 {
   "directory": "/home/w0w/code/ros_learning/build/learning_topic",
-  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"learning_topic\\\" -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/velocity_publisher.dir/src/velocity_publisher.cpp.o -c /home/w0w/code/ros_learning/src/learning_topic/src/velocity_publisher.cpp",
-  "file": "/home/w0w/code/ros_learning/src/learning_topic/src/velocity_publisher.cpp"
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"learning_topic\\\" -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/plumbing_pub.dir/src/plumbing_pub.cpp.o -c /home/w0w/code/ros_learning/src/learning_topic/src/plumbing_pub.cpp",
+  "file": "/home/w0w/code/ros_learning/src/learning_topic/src/plumbing_pub.cpp"
 },
 {
   "directory": "/home/w0w/code/ros_learning/build/learning_topic",

@@ -57,67 +57,7 @@ include learning_topic/CMakeFiles/velocity_publisher.dir/progress.make
 # Include the compile flags for this target's objects.
 include learning_topic/CMakeFiles/velocity_publisher.dir/flags.make
 
-learning_topic/CMakeFiles/velocity_publisher.dir/src/velocity_publisher.cpp.o: learning_topic/CMakeFiles/velocity_publisher.dir/flags.make
-learning_topic/CMakeFiles/velocity_publisher.dir/src/velocity_publisher.cpp.o: /home/w0w/code/ros_learning/src/learning_topic/src/velocity_publisher.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/w0w/code/ros_learning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object learning_topic/CMakeFiles/velocity_publisher.dir/src/velocity_publisher.cpp.o"
-	cd /home/w0w/code/ros_learning/build/learning_topic && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/velocity_publisher.dir/src/velocity_publisher.cpp.o -c /home/w0w/code/ros_learning/src/learning_topic/src/velocity_publisher.cpp
-
-learning_topic/CMakeFiles/velocity_publisher.dir/src/velocity_publisher.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/velocity_publisher.dir/src/velocity_publisher.cpp.i"
-	cd /home/w0w/code/ros_learning/build/learning_topic && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/w0w/code/ros_learning/src/learning_topic/src/velocity_publisher.cpp > CMakeFiles/velocity_publisher.dir/src/velocity_publisher.cpp.i
-
-learning_topic/CMakeFiles/velocity_publisher.dir/src/velocity_publisher.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/velocity_publisher.dir/src/velocity_publisher.cpp.s"
-	cd /home/w0w/code/ros_learning/build/learning_topic && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/w0w/code/ros_learning/src/learning_topic/src/velocity_publisher.cpp -o CMakeFiles/velocity_publisher.dir/src/velocity_publisher.cpp.s
-
-learning_topic/CMakeFiles/velocity_publisher.dir/src/velocity_publisher.cpp.o.requires:
-
-.PHONY : learning_topic/CMakeFiles/velocity_publisher.dir/src/velocity_publisher.cpp.o.requires
-
-learning_topic/CMakeFiles/velocity_publisher.dir/src/velocity_publisher.cpp.o.provides: learning_topic/CMakeFiles/velocity_publisher.dir/src/velocity_publisher.cpp.o.requires
-	$(MAKE) -f learning_topic/CMakeFiles/velocity_publisher.dir/build.make learning_topic/CMakeFiles/velocity_publisher.dir/src/velocity_publisher.cpp.o.provides.build
-.PHONY : learning_topic/CMakeFiles/velocity_publisher.dir/src/velocity_publisher.cpp.o.provides
-
-learning_topic/CMakeFiles/velocity_publisher.dir/src/velocity_publisher.cpp.o.provides.build: learning_topic/CMakeFiles/velocity_publisher.dir/src/velocity_publisher.cpp.o
-
-
-# Object files for target velocity_publisher
-velocity_publisher_OBJECTS = \
-"CMakeFiles/velocity_publisher.dir/src/velocity_publisher.cpp.o"
-
-# External object files for target velocity_publisher
-velocity_publisher_EXTERNAL_OBJECTS =
-
-/home/w0w/code/ros_learning/devel/lib/learning_topic/velocity_publisher: learning_topic/CMakeFiles/velocity_publisher.dir/src/velocity_publisher.cpp.o
-/home/w0w/code/ros_learning/devel/lib/learning_topic/velocity_publisher: learning_topic/CMakeFiles/velocity_publisher.dir/build.make
-/home/w0w/code/ros_learning/devel/lib/learning_topic/velocity_publisher: /opt/ros/melodic/lib/libroscpp.so
-/home/w0w/code/ros_learning/devel/lib/learning_topic/velocity_publisher: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/w0w/code/ros_learning/devel/lib/learning_topic/velocity_publisher: /opt/ros/melodic/lib/librosconsole.so
-/home/w0w/code/ros_learning/devel/lib/learning_topic/velocity_publisher: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/w0w/code/ros_learning/devel/lib/learning_topic/velocity_publisher: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/w0w/code/ros_learning/devel/lib/learning_topic/velocity_publisher: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/w0w/code/ros_learning/devel/lib/learning_topic/velocity_publisher: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/w0w/code/ros_learning/devel/lib/learning_topic/velocity_publisher: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/w0w/code/ros_learning/devel/lib/learning_topic/velocity_publisher: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/w0w/code/ros_learning/devel/lib/learning_topic/velocity_publisher: /opt/ros/melodic/lib/librostime.so
-/home/w0w/code/ros_learning/devel/lib/learning_topic/velocity_publisher: /opt/ros/melodic/lib/libcpp_common.so
-/home/w0w/code/ros_learning/devel/lib/learning_topic/velocity_publisher: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/w0w/code/ros_learning/devel/lib/learning_topic/velocity_publisher: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/w0w/code/ros_learning/devel/lib/learning_topic/velocity_publisher: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/w0w/code/ros_learning/devel/lib/learning_topic/velocity_publisher: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/w0w/code/ros_learning/devel/lib/learning_topic/velocity_publisher: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/w0w/code/ros_learning/devel/lib/learning_topic/velocity_publisher: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/w0w/code/ros_learning/devel/lib/learning_topic/velocity_publisher: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/w0w/code/ros_learning/devel/lib/learning_topic/velocity_publisher: learning_topic/CMakeFiles/velocity_publisher.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/w0w/code/ros_learning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/w0w/code/ros_learning/devel/lib/learning_topic/velocity_publisher"
-	cd /home/w0w/code/ros_learning/build/learning_topic && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/velocity_publisher.dir/link.txt --verbose=$(VERBOSE)
-
-# Rule to build all files generated by this target.
-learning_topic/CMakeFiles/velocity_publisher.dir/build: /home/w0w/code/ros_learning/devel/lib/learning_topic/velocity_publisher
-
-.PHONY : learning_topic/CMakeFiles/velocity_publisher.dir/build
-
-learning_topic/CMakeFiles/velocity_publisher.dir/requires: learning_topic/CMakeFiles/velocity_publisher.dir/src/velocity_publisher.cpp.o.requires
+learning_topic/CMakeFiles/velocity_publisher.dir/requires:
 
 .PHONY : learning_topic/CMakeFiles/velocity_publisher.dir/requires
 

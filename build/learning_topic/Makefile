@@ -80,6 +80,17 @@ install/fast: preinstall/fast
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -112,17 +123,6 @@ list_install_components:
 list_install_components/fast: list_install_components
 
 .PHONY : list_install_components/fast
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -168,19 +168,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-learning_topic/CMakeFiles/velocity_publisher.dir/rule:
-	cd /home/w0w/code/ros_learning/build && $(MAKE) -f CMakeFiles/Makefile2 learning_topic/CMakeFiles/velocity_publisher.dir/rule
-.PHONY : learning_topic/CMakeFiles/velocity_publisher.dir/rule
+learning_topic/CMakeFiles/plumbing_pub.dir/rule:
+	cd /home/w0w/code/ros_learning/build && $(MAKE) -f CMakeFiles/Makefile2 learning_topic/CMakeFiles/plumbing_pub.dir/rule
+.PHONY : learning_topic/CMakeFiles/plumbing_pub.dir/rule
 
 # Convenience name for target.
-velocity_publisher: learning_topic/CMakeFiles/velocity_publisher.dir/rule
+plumbing_pub: learning_topic/CMakeFiles/plumbing_pub.dir/rule
 
-.PHONY : velocity_publisher
+.PHONY : plumbing_pub
 
 # fast build rule for target.
-velocity_publisher/fast:
-	cd /home/w0w/code/ros_learning/build && $(MAKE) -f learning_topic/CMakeFiles/velocity_publisher.dir/build.make learning_topic/CMakeFiles/velocity_publisher.dir/build
-.PHONY : velocity_publisher/fast
+plumbing_pub/fast:
+	cd /home/w0w/code/ros_learning/build && $(MAKE) -f learning_topic/CMakeFiles/plumbing_pub.dir/build.make learning_topic/CMakeFiles/plumbing_pub.dir/build
+.PHONY : plumbing_pub/fast
 
 # Convenience name for target.
 learning_topic/CMakeFiles/pose_subscriber.dir/rule:
@@ -196,6 +196,33 @@ pose_subscriber: learning_topic/CMakeFiles/pose_subscriber.dir/rule
 pose_subscriber/fast:
 	cd /home/w0w/code/ros_learning/build && $(MAKE) -f learning_topic/CMakeFiles/pose_subscriber.dir/build.make learning_topic/CMakeFiles/pose_subscriber.dir/build
 .PHONY : pose_subscriber/fast
+
+src/plumbing_pub.o: src/plumbing_pub.cpp.o
+
+.PHONY : src/plumbing_pub.o
+
+# target to build an object file
+src/plumbing_pub.cpp.o:
+	cd /home/w0w/code/ros_learning/build && $(MAKE) -f learning_topic/CMakeFiles/plumbing_pub.dir/build.make learning_topic/CMakeFiles/plumbing_pub.dir/src/plumbing_pub.cpp.o
+.PHONY : src/plumbing_pub.cpp.o
+
+src/plumbing_pub.i: src/plumbing_pub.cpp.i
+
+.PHONY : src/plumbing_pub.i
+
+# target to preprocess a source file
+src/plumbing_pub.cpp.i:
+	cd /home/w0w/code/ros_learning/build && $(MAKE) -f learning_topic/CMakeFiles/plumbing_pub.dir/build.make learning_topic/CMakeFiles/plumbing_pub.dir/src/plumbing_pub.cpp.i
+.PHONY : src/plumbing_pub.cpp.i
+
+src/plumbing_pub.s: src/plumbing_pub.cpp.s
+
+.PHONY : src/plumbing_pub.s
+
+# target to generate assembly for a file
+src/plumbing_pub.cpp.s:
+	cd /home/w0w/code/ros_learning/build && $(MAKE) -f learning_topic/CMakeFiles/plumbing_pub.dir/build.make learning_topic/CMakeFiles/plumbing_pub.dir/src/plumbing_pub.cpp.s
+.PHONY : src/plumbing_pub.cpp.s
 
 src/pose_subscriber.o: src/pose_subscriber.cpp.o
 
@@ -224,33 +251,6 @@ src/pose_subscriber.cpp.s:
 	cd /home/w0w/code/ros_learning/build && $(MAKE) -f learning_topic/CMakeFiles/pose_subscriber.dir/build.make learning_topic/CMakeFiles/pose_subscriber.dir/src/pose_subscriber.cpp.s
 .PHONY : src/pose_subscriber.cpp.s
 
-src/velocity_publisher.o: src/velocity_publisher.cpp.o
-
-.PHONY : src/velocity_publisher.o
-
-# target to build an object file
-src/velocity_publisher.cpp.o:
-	cd /home/w0w/code/ros_learning/build && $(MAKE) -f learning_topic/CMakeFiles/velocity_publisher.dir/build.make learning_topic/CMakeFiles/velocity_publisher.dir/src/velocity_publisher.cpp.o
-.PHONY : src/velocity_publisher.cpp.o
-
-src/velocity_publisher.i: src/velocity_publisher.cpp.i
-
-.PHONY : src/velocity_publisher.i
-
-# target to preprocess a source file
-src/velocity_publisher.cpp.i:
-	cd /home/w0w/code/ros_learning/build && $(MAKE) -f learning_topic/CMakeFiles/velocity_publisher.dir/build.make learning_topic/CMakeFiles/velocity_publisher.dir/src/velocity_publisher.cpp.i
-.PHONY : src/velocity_publisher.cpp.i
-
-src/velocity_publisher.s: src/velocity_publisher.cpp.s
-
-.PHONY : src/velocity_publisher.s
-
-# target to generate assembly for a file
-src/velocity_publisher.cpp.s:
-	cd /home/w0w/code/ros_learning/build && $(MAKE) -f learning_topic/CMakeFiles/velocity_publisher.dir/build.make learning_topic/CMakeFiles/velocity_publisher.dir/src/velocity_publisher.cpp.s
-.PHONY : src/velocity_publisher.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -259,19 +259,19 @@ help:
 	@echo "... depend"
 	@echo "... install/strip"
 	@echo "... install"
-	@echo "... velocity_publisher"
+	@echo "... plumbing_pub"
+	@echo "... pose_subscriber"
+	@echo "... edit_cache"
 	@echo "... install/local"
 	@echo "... test"
 	@echo "... list_install_components"
-	@echo "... pose_subscriber"
-	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... src/plumbing_pub.o"
+	@echo "... src/plumbing_pub.i"
+	@echo "... src/plumbing_pub.s"
 	@echo "... src/pose_subscriber.o"
 	@echo "... src/pose_subscriber.i"
 	@echo "... src/pose_subscriber.s"
-	@echo "... src/velocity_publisher.o"
-	@echo "... src/velocity_publisher.i"
-	@echo "... src/velocity_publisher.s"
 .PHONY : help
 
 

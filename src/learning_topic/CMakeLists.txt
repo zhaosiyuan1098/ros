@@ -138,8 +138,8 @@ include_directories(
  add_executable(pose_subscriber src/pose_subscriber.cpp)
  target_link_libraries(pose_subscriber ${catkin_LIBRARIES})
 
- add_executable(velocity_publisher src/velocity_publisher.cpp)
- target_link_libraries(velocity_publisher ${catkin_LIBRARIES})
+ add_executable(plumbing_pub src/plumbing_pub.cpp)
+ target_link_libraries(plumbing_pub ${catkin_LIBRARIES})
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the

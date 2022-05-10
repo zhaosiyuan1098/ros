@@ -84,10 +84,10 @@
 /home/w0w/code/ros_learning/build/learning_service/CMakeFiles/turtle_spawn.dir
 /home/w0w/code/ros_learning/build/learning_topic/CMakeFiles/install/strip.dir
 /home/w0w/code/ros_learning/build/learning_topic/CMakeFiles/install.dir
-/home/w0w/code/ros_learning/build/learning_topic/CMakeFiles/velocity_publisher.dir
+/home/w0w/code/ros_learning/build/learning_topic/CMakeFiles/plumbing_pub.dir
+/home/w0w/code/ros_learning/build/learning_topic/CMakeFiles/pose_subscriber.dir
+/home/w0w/code/ros_learning/build/learning_topic/CMakeFiles/edit_cache.dir
 /home/w0w/code/ros_learning/build/learning_topic/CMakeFiles/install/local.dir
 /home/w0w/code/ros_learning/build/learning_topic/CMakeFiles/test.dir
 /home/w0w/code/ros_learning/build/learning_topic/CMakeFiles/list_install_components.dir
-/home/w0w/code/ros_learning/build/learning_topic/CMakeFiles/pose_subscriber.dir
-/home/w0w/code/ros_learning/build/learning_topic/CMakeFiles/edit_cache.dir
 /home/w0w/code/ros_learning/build/learning_topic/CMakeFiles/rebuild_cache.dir
