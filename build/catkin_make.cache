@@ -1,2 +1,2 @@
-hello_ros:learning_service:learning_topic
+hello_ros:learning_service:learning_topic:plumbing_server_client
 -DCMAKE_EXPORT_COMPILE_COMMANDS=1 -DCATKIN_DEVEL_PREFIX=/home/w0w/code/ros_learning/devel -DCMAKE_INSTALL_PREFIX=/home/w0w/code/ros_learning/install -G Unix Makefiles

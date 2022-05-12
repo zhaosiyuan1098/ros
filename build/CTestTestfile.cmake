@@ -6,5 +6,6 @@
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
 subdirs("hello_ros")
+subdirs("plumbing_server_client")
 subdirs("learning_service")
 subdirs("learning_topic")

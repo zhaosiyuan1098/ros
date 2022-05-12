@@ -40,6 +40,16 @@
   "file": "/home/w0w/code/ros_learning/src/hello_ros/src/helloROS.cpp"
 },
 {
+  "directory": "/home/w0w/code/ros_learning/build/plumbing_server_client",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"plumbing_server_client\\\" -I/home/w0w/code/ros_learning/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/demo02_client.dir/src/demo02_client.cpp.o -c /home/w0w/code/ros_learning/src/plumbing_server_client/src/demo02_client.cpp",
+  "file": "/home/w0w/code/ros_learning/src/plumbing_server_client/src/demo02_client.cpp"
+},
+{
+  "directory": "/home/w0w/code/ros_learning/build/plumbing_server_client",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"plumbing_server_client\\\" -I/home/w0w/code/ros_learning/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/demo01_server.dir/src/demo01_server.cpp.o -c /home/w0w/code/ros_learning/src/plumbing_server_client/src/demo01_server.cpp",
+  "file": "/home/w0w/code/ros_learning/src/plumbing_server_client/src/demo01_server.cpp"
+},
+{
   "directory": "/home/w0w/code/ros_learning/build/learning_service",
   "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"learning_service\\\" -I/home/w0w/code/ros_learning/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/turtle_spawn.dir/src/turtle_spawn.cpp.o -c /home/w0w/code/ros_learning/src/learning_service/src/turtle_spawn.cpp",
   "file": "/home/w0w/code/ros_learning/src/learning_service/src/turtle_spawn.cpp"
