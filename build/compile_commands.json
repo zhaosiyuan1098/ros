@@ -41,13 +41,13 @@
 },
 {
   "directory": "/home/w0w/code/ros_learning/build/learning_service",
-  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"learning_service\\\" -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/turtle_command_server.dir/src/turtle_command_server.cpp.o -c /home/w0w/code/ros_learning/src/learning_service/src/turtle_command_server.cpp",
-  "file": "/home/w0w/code/ros_learning/src/learning_service/src/turtle_command_server.cpp"
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"learning_service\\\" -I/home/w0w/code/ros_learning/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/turtle_spawn.dir/src/turtle_spawn.cpp.o -c /home/w0w/code/ros_learning/src/learning_service/src/turtle_spawn.cpp",
+  "file": "/home/w0w/code/ros_learning/src/learning_service/src/turtle_spawn.cpp"
 },
 {
   "directory": "/home/w0w/code/ros_learning/build/learning_service",
-  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"learning_service\\\" -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/turtle_spawn.dir/src/turtle_spawn.cpp.o -c /home/w0w/code/ros_learning/src/learning_service/src/turtle_spawn.cpp",
-  "file": "/home/w0w/code/ros_learning/src/learning_service/src/turtle_spawn.cpp"
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"learning_service\\\" -I/home/w0w/code/ros_learning/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/turtle_command_server.dir/src/turtle_command_server.cpp.o -c /home/w0w/code/ros_learning/src/learning_service/src/turtle_command_server.cpp",
+  "file": "/home/w0w/code/ros_learning/src/learning_service/src/turtle_command_server.cpp"
 },
 {
   "directory": "/home/w0w/code/ros_learning/build/learning_topic",
